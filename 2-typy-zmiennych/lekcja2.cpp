@@ -1,16 +1,14 @@
-#include <iostream>
-#include <cstdio>
-using namespace std;
+#include <iostream> //biblioteka
+#include <cstdio> //operacji wejœcia/wyjœcia
+using namespace std; //przestrzeñ nazw
 int main(){
 cout << "Ile masz lat? \n";
 int lata;
 cin >> lata;
-cout << "Masz lat: "<<lata<< " lat";
+cout << "Masz lat: "<<lata<< " lat"<<endl;
 
 cin.ignore(); //nie oczekuje na znak eter
 getchar(); //oczekuje na znak eter
-	
-getchar();
 return 0;
 
 /* Typy zmiennych
@@ -21,8 +19,6 @@ string //tylko teskt
 double //liczby rzeczywiste
 float //zmienna przecinkowa 
  
-
-
 
 */
 	
