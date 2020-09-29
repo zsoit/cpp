@@ -9,21 +9,21 @@ int main(){
   SetConsoleTitleA("Kalkulator prosty - dane wpisywane");
 
   cout <<"================================== \n";
-  cout<< "KALKULATOR DWÓÆH LICZB CA£KOWITYCH \n";
+  cout<< "KALKULATOR DWÓÆH LICZB ZMIENNO PRZECINKOWYCH  \n";
   cout <<"================================== \n";
   
   cout<< "Podaj wartoœæ dla a: ";
-  int a;
+  float a;
   cin>>a;
   
   cout<<"Podaj wartoœæ dla b: ";
-  int b;
+  float b;
   cin>>b;
 
-  int suma=a+b;
-  int roznica=a-b;
-  int iloczyn=a*b;
-  int iloraz=a/b;
+  float suma=a+b;
+  float roznica=a-b;
+  float iloczyn=a*b;
+  float iloraz=a/b;
   
   cout <<"================================== \n";
   cout << "PODANE WARTOŒÆI: \n";
@@ -31,8 +31,8 @@ int main(){
   cout <<"================================== \n";
    
   cout << "OTRZYMANE WYNIKI: \n";
-  cout << "-->Suma jest równa: "<<suma<<endl;
-  cout << "-->Ró¿nica wynosi: "<<roznica<<endl;
+  cout << "-->Suma jest równa: "<<a<<"+"<<b<<"="<<suma<<endl;
+  cout << "-->Ró¿nica wynosi: "<<a-b<<endl;
   cout << "-->Iloczyn jest równy: "<<iloczyn<<endl;
   cout << "-->Iloraz wynosi: "<<iloraz<<endl;
   cout <<"================================== \n";
