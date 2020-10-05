@@ -21,6 +21,29 @@ float //zmienna przecinkowa
  
 
 */
+
+
+/* 
+
+/Operatory porównania 
+> wiêkszy od
+< mniejszy od
+>= wiêkszy lub równy 
+<= mniejszy lub równy 
+== równy 
+!= rózny od
+
+
+/Operatory przypisania 
+= zwyk³e przypisanie
++= dodaj i przypisz
+-= odejmij i przypisz
+*= pomnó¿ i przypisz
+/=  podziel i przypisz
+
+
+
+*/
 	
 	
 }
